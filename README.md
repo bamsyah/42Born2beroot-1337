@@ -75,6 +75,7 @@ By leveraging UFW, Linux users can effectively configure firewall rules to suit 
 
 ## What-is-cron-and-what-is-wall?
 Indeed, as system administrators, two crucial commands that greatly aid in managing a server are cron and wall.
+
 --- Cron: Cron is a Linux task manager that allows scheduling and automating repetitive tasks at specified times or intervals. It is an essential tool for system administrators to execute commands, scripts, or programs automatically. By configuring cron jobs, administrators can schedule tasks to run daily, weekly, monthly, or at custom intervals. For example, if a server needs to be restarted every day at 4:00 am for maintenance, the administrator can create a cron job to handle this task without manual intervention. cron ensures that critical tasks are performed consistently and timely, improving system efficiency and reducing the need for manual intervention.
 
 --- Wall: The wall command in Linux is utilized by the root user to send messages or alerts to all users who are currently connected to the server. It serves as a communication tool for system administrators to broadcast important announcements to all logged-in users simultaneously. For example, if there is a significant server change or maintenance that might cause users to be disconnected, the root user can use wall to inform them in advance. This helps in minimizing disruptions, providing users with essential information, and maintaining smooth communication between administrators and users.
