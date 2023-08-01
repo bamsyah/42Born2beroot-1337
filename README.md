@@ -57,7 +57,7 @@ SSH (Secure Shell) is a secure remote administration protocol that allows users 
 
 The command used to connect to a server with ssh is:
 
-### ssh {username}@{IP_host} -p {port}
+$ ssh {username}@{IP_host} -p {port}
 
 Exactly! SSH utilizes three different encryption techniques to ensure secure communication:
 --- Symmetric Encryption: This method employs a single secret key for both encryption and decryption of a message, used by both the client and the host. The same key is applied for both directions of communication. However, the security of symmetric encryption relies on keeping the secret key private, as anyone with knowledge of the key can access the transmitted message.
